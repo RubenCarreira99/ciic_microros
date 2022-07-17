@@ -1,0 +1,29 @@
+Este repositorio contem todo o codigo desenvolvido para microROS com a finalidade de integrar no sistema de atribuicao de tarefas ROS.
+
+- Para uma utilizacao mais fluida do sistema, recomenda-se que insira a instalacao do ROS2 como variavel de sistema.
+
+- Existe neste repositorio um script .sh desenvolvido para facilitar a inicializacao do agente e terminais para testar o funcionamento do projeto,
+se o utilizador preferir utiliza-lo, basta alterar os caminhos que estao nos comandos desse ficheiro para os corretos na sua maquina. Caso contrario, nos passos abaixo tambem estao explicados os procedimentos necessarios.
+
+- Passos para o bom funcionamente deste projeto:
+
+    - Ter ROS2 (versao foxy ou galatic sao recomendadas) instalado e o microROS workspace criado (ver relatorio ou (https://micro.ros.org/docs/tutorials/core/first_application_rtos/freertos/); 
+
+    - Ter um agente microROS instalado dentro do workspace microROS - pode utilizar um docker que encontre online, 
+       mas recomenda-se a utilizacao do agent utilizado no tutorial do microROS (https://micro.ros.org/docs/tutorials/core/first_application_rtos/freertos/ ou ver o relatorio do projeto para uma explicacao detalhada).
+    
+    - Quando abrir um terminal para correr o agent, certifique-se que esta dentro do microROS worksapce e insere o comando "source install/local_setup.bash"
+
+    - Ter VS CODE instalado com a extensao PlatformIO
+
+    - Quando ligar o esp32dev ao PC, dar permissoes na porta onde o esp estiver ligado - "chmod 777 nome_da_porta"
+
+    - Neste repositorio encontra-se o diretorio "ciic_message' que contem a mensagem customizada para o projeto. Para funcionar sera necessario instalar o package
+      da mensagem - pode guiar-se pelo relatorio ou seguir o tutorial em https://github-wiki-see.page/m/kajMork/Brick_Feeder/wiki/How-to-create-custom-micro-ros-message-service-for-use-in-arduino-framework (ignorar parte do site onde explica como criar a mensagem, so necessita da parte
+      da instalacao)
+
+    - Estando a mensagem instalada, basta fazer build e upload para a board atraves do botoes no canto inferior esquerdo do VS CODE.
+
+    - Feito o upload, para testar o funcionamento do projeto em terminais, sera necessario inserir o comando "source caminho_para_o_diretorio_da_mensagem/install/setup.bash" em qualquer terminal que decida abrir.
+
+
