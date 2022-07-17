@@ -1,0 +1,601 @@
+[0.000000] (-) TimerEvent: {}
+[0.000635] (ciic_ros_tasks_messages) JobQueued: {'identifier': 'ciic_ros_tasks_messages', 'dependencies': OrderedDict()}
+[0.000765] (ciic_ros_tasks_messages) JobStarted: {'identifier': 'ciic_ros_tasks_messages'}
+[0.089521] (ciic_ros_tasks_messages) JobProgress: {'identifier': 'ciic_ros_tasks_messages', 'progress': 'cmake'}
+[0.089720] (-) TimerEvent: {}
+[0.092818] (ciic_ros_tasks_messages) Command: {'cmd': ['/usr/bin/cmake', '/home/ruben/ciic/src/ciic_ros_tasks_messages', '-DCMAKE_INSTALL_PREFIX=/home/ruben/ciic/install/ciic_ros_tasks_messages'], 'cwd': '/home/ruben/ciic/build/ciic_ros_tasks_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ruben'), ('SSH_AGENT_PID', '2071'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruben'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1894'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=05d6231c54a562a42f1e3f32629b548d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruben'), ('JOURNAL_STREAM', '8:65223'), ('_', '/home/ruben/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruben'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ruben/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2106,unix/ubuntu:/tmp/.ICE-unix/2106'), ('INVOCATION_ID', '7f54f45a80954e208f5d6b51533f18d4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/195cc87d_3738_4190_af3a_cc19a12bbe99'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.283'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruben/ciic/build/ciic_ros_tasks_messages'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=05d6231c54a562a42f1e3f32629b548d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.190106] (-) TimerEvent: {}
+[0.291639] (-) TimerEvent: {}
+[0.392878] (-) TimerEvent: {}
+[0.493836] (-) TimerEvent: {}
+[0.595185] (-) TimerEvent: {}
+[0.696432] (-) TimerEvent: {}
+[0.745117] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.796690] (-) TimerEvent: {}
+[0.897842] (-) TimerEvent: {}
+[1.000168] (-) TimerEvent: {}
+[1.101799] (-) TimerEvent: {}
+[1.186182] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.202053] (-) TimerEvent: {}
+[1.221764] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.302443] (-) TimerEvent: {}
+[1.404385] (-) TimerEvent: {}
+[1.482451] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.504606] (-) TimerEvent: {}
+[1.508243] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.604973] (-) TimerEvent: {}
+[1.706370] (-) TimerEvent: {}
+[1.753514] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.806564] (-) TimerEvent: {}
+[1.837836] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.841968] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.852709] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.906796] (-) TimerEvent: {}
+[2.008256] (-) TimerEvent: {}
+[2.110480] (-) TimerEvent: {}
+[2.111581] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[2.115460] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.211567] (-) TimerEvent: {}
+[2.312547] (-) TimerEvent: {}
+[2.414771] (-) TimerEvent: {}
+[2.441841] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.480784] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.483211] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.515293] (-) TimerEvent: {}
+[2.545161] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.616135] (-) TimerEvent: {}
+[2.618375] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.619270] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.717249] (-) TimerEvent: {}
+[2.818402] (-) TimerEvent: {}
+[2.919153] (-) TimerEvent: {}
+[3.019954] (-) TimerEvent: {}
+[3.121138] (-) TimerEvent: {}
+[3.222050] (-) TimerEvent: {}
+[3.323646] (-) TimerEvent: {}
+[3.360807] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.424267] (-) TimerEvent: {}
+[3.525788] (-) TimerEvent: {}
+[3.608851] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[3.626068] (-) TimerEvent: {}
+[3.631865] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.661176] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.726571] (-) TimerEvent: {}
+[3.828303] (-) TimerEvent: {}
+[3.929344] (-) TimerEvent: {}
+[3.965983] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.030437] (-) TimerEvent: {}
+[4.032710] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[4.131586] (-) TimerEvent: {}
+[4.232676] (-) TimerEvent: {}
+[4.300203] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.333689] (-) TimerEvent: {}
+[4.434732] (-) TimerEvent: {}
+[4.465231] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[4.535843] (-) TimerEvent: {}
+[4.637811] (-) TimerEvent: {}
+[4.717469] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[4.738395] (-) TimerEvent: {}
+[4.839360] (-) TimerEvent: {}
+[4.940398] (-) TimerEvent: {}
+[4.960048] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.990956] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.041449] (-) TimerEvent: {}
+[5.054813] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.061027] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[5.134025] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[5.135216] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.135772] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[5.136197] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[5.142545] (-) TimerEvent: {}
+[5.201352] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.243488] (-) TimerEvent: {}
+[5.344521] (-) TimerEvent: {}
+[5.402592] (ciic_ros_tasks_messages) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.414784] (ciic_ros_tasks_messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.422237] (ciic_ros_tasks_messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.444886] (-) TimerEvent: {}
+[5.456561] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.545650] (-) TimerEvent: {}
+[5.589960] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Generating done\n'}
+[5.604826] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Build files have been written to: /home/ruben/ciic/build/ciic_ros_tasks_messages\n'}
+[5.625061] (ciic_ros_tasks_messages) CommandEnded: {'returncode': 0}
+[5.627385] (ciic_ros_tasks_messages) JobProgress: {'identifier': 'ciic_ros_tasks_messages', 'progress': 'build'}
+[5.633277] (ciic_ros_tasks_messages) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ruben/ciic/build/ciic_ros_tasks_messages', '--', '-j2', '-l2'], 'cwd': '/home/ruben/ciic/build/ciic_ros_tasks_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ruben'), ('SSH_AGENT_PID', '2071'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruben'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1894'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=05d6231c54a562a42f1e3f32629b548d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruben'), ('JOURNAL_STREAM', '8:65223'), ('_', '/home/ruben/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruben'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ruben/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2106,unix/ubuntu:/tmp/.ICE-unix/2106'), ('INVOCATION_ID', '7f54f45a80954e208f5d6b51533f18d4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/195cc87d_3738_4190_af3a_cc19a12bbe99'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.283'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruben/ciic/build/ciic_ros_tasks_messages'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=05d6231c54a562a42f1e3f32629b548d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[5.646228] (-) TimerEvent: {}
+[5.747850] (-) TimerEvent: {}
+[5.767621] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__cpp\x1b[0m\n'}
+[5.810693] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.848908] (-) TimerEvent: {}
+[5.950377] (-) TimerEvent: {}
+[6.051907] (-) TimerEvent: {}
+[6.152921] (-) TimerEvent: {}
+[6.253947] (-) TimerEvent: {}
+[6.355555] (-) TimerEvent: {}
+[6.457304] (-) TimerEvent: {}
+[6.558592] (-) TimerEvent: {}
+[6.660142] (-) TimerEvent: {}
+[6.761128] (-) TimerEvent: {}
+[6.862451] (-) TimerEvent: {}
+[6.963631] (-) TimerEvent: {}
+[7.065332] (-) TimerEvent: {}
+[7.090956] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[  2%] Built target ciic_ros_tasks_messages__cpp\n'}
+[7.120884] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.165675] (-) TimerEvent: {}
+[7.267011] (-) TimerEvent: {}
+[7.368088] (-) TimerEvent: {}
+[7.469631] (-) TimerEvent: {}
+[7.570845] (-) TimerEvent: {}
+[7.671942] (-) TimerEvent: {}
+[7.773483] (-) TimerEvent: {}
+[7.874505] (-) TimerEvent: {}
+[7.975832] (-) TimerEvent: {}
+[8.076949] (-) TimerEvent: {}
+[8.178079] (-) TimerEvent: {}
+[8.279419] (-) TimerEvent: {}
+[8.381326] (-) TimerEvent: {}
+[8.510093] (-) TimerEvent: {}
+[8.573043] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_generator_c\x1b[0m\n'}
+[8.610447] (-) TimerEvent: {}
+[8.649775] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__rosidl_generator_c.dir/rosidl_generator_c/ciic_ros_tasks_messages/msg/detail/task_booking__functions.c.o\x1b[0m\n'}
+[8.711117] (-) TimerEvent: {}
+[8.812625] (-) TimerEvent: {}
+[8.842390] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__rosidl_generator_c.dir/rosidl_generator_c/ciic_ros_tasks_messages/srv/detail/led_task__functions.c.o\x1b[0m\n'}
+[8.913224] (-) TimerEvent: {}
+[9.014388] (-) TimerEvent: {}
+[9.016983] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libciic_ros_tasks_messages__rosidl_generator_c.so\x1b[0m\n'}
+[9.115215] (-) TimerEvent: {}
+[9.135506] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 12%] Built target ciic_ros_tasks_messages__rosidl_generator_c\n'}
+[9.173203] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[9.215821] (-) TimerEvent: {}
+[9.317431] (-) TimerEvent: {}
+[9.418213] (-) TimerEvent: {}
+[9.519855] (-) TimerEvent: {}
+[9.620932] (-) TimerEvent: {}
+[9.722456] (-) TimerEvent: {}
+[9.823474] (-) TimerEvent: {}
+[9.924755] (-) TimerEvent: {}
+[10.026130] (-) TimerEvent: {}
+[10.127220] (-) TimerEvent: {}
+[10.227833] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[10.228229] (-) TimerEvent: {}
+[10.325995] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ciic_ros_tasks_messages/msg/detail/task_booking__type_support.cpp.o\x1b[0m\n'}
+[10.328904] (-) TimerEvent: {}
+[10.429667] (-) TimerEvent: {}
+[10.531054] (-) TimerEvent: {}
+[10.632098] (-) TimerEvent: {}
+[10.733080] (-) TimerEvent: {}
+[10.834259] (-) TimerEvent: {}
+[10.935627] (-) TimerEvent: {}
+[11.036755] (-) TimerEvent: {}
+[11.137775] (-) TimerEvent: {}
+[11.239339] (-) TimerEvent: {}
+[11.340885] (-) TimerEvent: {}
+[11.442663] (-) TimerEvent: {}
+[11.543535] (-) TimerEvent: {}
+[11.614608] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ciic_ros_tasks_messages/srv/detail/led_task__type_support.cpp.o\x1b[0m\n'}
+[11.644102] (-) TimerEvent: {}
+[11.745677] (-) TimerEvent: {}
+[11.846800] (-) TimerEvent: {}
+[11.947849] (-) TimerEvent: {}
+[12.049158] (-) TimerEvent: {}
+[12.150239] (-) TimerEvent: {}
+[12.251210] (-) TimerEvent: {}
+[12.352813] (-) TimerEvent: {}
+[12.453804] (-) TimerEvent: {}
+[12.554820] (-) TimerEvent: {}
+[12.655859] (-) TimerEvent: {}
+[12.688439] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libciic_ros_tasks_messages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[12.756713] (-) TimerEvent: {}
+[12.858090] (-) TimerEvent: {}
+[12.910558] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 23%] Built target ciic_ros_tasks_messages__rosidl_typesupport_introspection_cpp\n'}
+[12.949351] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.959266] (-) TimerEvent: {}
+[13.060299] (-) TimerEvent: {}
+[13.161195] (-) TimerEvent: {}
+[13.264682] (-) TimerEvent: {}
+[13.366064] (-) TimerEvent: {}
+[13.467207] (-) TimerEvent: {}
+[13.568042] (-) TimerEvent: {}
+[13.669233] (-) TimerEvent: {}
+[13.770168] (-) TimerEvent: {}
+[13.871080] (-) TimerEvent: {}
+[13.972461] (-) TimerEvent: {}
+[14.066558] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[14.073539] (-) TimerEvent: {}
+[14.174251] (-) TimerEvent: {}
+[14.198556] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ciic_ros_tasks_messages/msg/detail/dds_fastrtps/task_booking__type_support.cpp.o\x1b[0m\n'}
+[14.274772] (-) TimerEvent: {}
+[14.376058] (-) TimerEvent: {}
+[14.477874] (-) TimerEvent: {}
+[14.578844] (-) TimerEvent: {}
+[14.680348] (-) TimerEvent: {}
+[14.781561] (-) TimerEvent: {}
+[14.882608] (-) TimerEvent: {}
+[14.983503] (-) TimerEvent: {}
+[15.085094] (-) TimerEvent: {}
+[15.186155] (-) TimerEvent: {}
+[15.287728] (-) TimerEvent: {}
+[15.388868] (-) TimerEvent: {}
+[15.490293] (-) TimerEvent: {}
+[15.591297] (-) TimerEvent: {}
+[15.692851] (-) TimerEvent: {}
+[15.793916] (-) TimerEvent: {}
+[15.895204] (-) TimerEvent: {}
+[15.984678] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ciic_ros_tasks_messages/srv/detail/dds_fastrtps/led_task__type_support.cpp.o\x1b[0m\n'}
+[15.995376] (-) TimerEvent: {}
+[16.096805] (-) TimerEvent: {}
+[16.198149] (-) TimerEvent: {}
+[16.299850] (-) TimerEvent: {}
+[16.400878] (-) TimerEvent: {}
+[16.502634] (-) TimerEvent: {}
+[16.604112] (-) TimerEvent: {}
+[16.710247] (-) TimerEvent: {}
+[16.811875] (-) TimerEvent: {}
+[16.912692] (-) TimerEvent: {}
+[17.013733] (-) TimerEvent: {}
+[17.114743] (-) TimerEvent: {}
+[17.216278] (-) TimerEvent: {}
+[17.317218] (-) TimerEvent: {}
+[17.419235] (-) TimerEvent: {}
+[17.521128] (-) TimerEvent: {}
+[17.622219] (-) TimerEvent: {}
+[17.632850] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libciic_ros_tasks_messages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.723378] (-) TimerEvent: {}
+[17.825020] (-) TimerEvent: {}
+[17.926684] (-) TimerEvent: {}
+[17.952210] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 33%] Built target ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[17.978725] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.027272] (-) TimerEvent: {}
+[18.128393] (-) TimerEvent: {}
+[18.229419] (-) TimerEvent: {}
+[18.331448] (-) TimerEvent: {}
+[18.433036] (-) TimerEvent: {}
+[18.534102] (-) TimerEvent: {}
+[18.635368] (-) TimerEvent: {}
+[18.736709] (-) TimerEvent: {}
+[18.837750] (-) TimerEvent: {}
+[18.858969] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_c\x1b[0m\n'}
+[18.937956] (-) TimerEvent: {}
+[18.940888] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/ciic_ros_tasks_messages/msg/task_booking__type_support.cpp.o\x1b[0m\n'}
+[19.032773] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/ciic_ros_tasks_messages/srv/led_task__type_support.cpp.o\x1b[0m\n'}
+[19.038524] (-) TimerEvent: {}
+[19.135858] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libciic_ros_tasks_messages__rosidl_typesupport_c.so\x1b[0m\n'}
+[19.139552] (-) TimerEvent: {}
+[19.240857] (-) TimerEvent: {}
+[19.300829] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 43%] Built target ciic_ros_tasks_messages__rosidl_typesupport_c\n'}
+[19.330162] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.341562] (-) TimerEvent: {}
+[19.442830] (-) TimerEvent: {}
+[19.544199] (-) TimerEvent: {}
+[19.645537] (-) TimerEvent: {}
+[19.746934] (-) TimerEvent: {}
+[19.847964] (-) TimerEvent: {}
+[19.949974] (-) TimerEvent: {}
+[20.051696] (-) TimerEvent: {}
+[20.153267] (-) TimerEvent: {}
+[20.159310] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_cpp\x1b[0m\n'}
+[20.206318] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ciic_ros_tasks_messages/msg/task_booking__type_support.cpp.o\x1b[0m\n'}
+[20.254288] (-) TimerEvent: {}
+[20.355340] (-) TimerEvent: {}
+[20.456402] (-) TimerEvent: {}
+[20.557850] (-) TimerEvent: {}
+[20.659635] (-) TimerEvent: {}
+[20.760662] (-) TimerEvent: {}
+[20.862669] (-) TimerEvent: {}
+[20.963944] (-) TimerEvent: {}
+[21.065044] (-) TimerEvent: {}
+[21.166269] (-) TimerEvent: {}
+[21.211948] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ciic_ros_tasks_messages/srv/led_task__type_support.cpp.o\x1b[0m\n'}
+[21.266864] (-) TimerEvent: {}
+[21.368357] (-) TimerEvent: {}
+[21.469330] (-) TimerEvent: {}
+[21.570490] (-) TimerEvent: {}
+[21.671524] (-) TimerEvent: {}
+[21.772795] (-) TimerEvent: {}
+[21.873857] (-) TimerEvent: {}
+[21.974860] (-) TimerEvent: {}
+[22.030555] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libciic_ros_tasks_messages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[22.075975] (-) TimerEvent: {}
+[22.167430] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 53%] Built target ciic_ros_tasks_messages__rosidl_typesupport_cpp\n'}
+[22.176582] (-) TimerEvent: {}
+[22.192618] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[22.276833] (-) TimerEvent: {}
+[22.378177] (-) TimerEvent: {}
+[22.479035] (-) TimerEvent: {}
+[22.580311] (-) TimerEvent: {}
+[22.681426] (-) TimerEvent: {}
+[22.782853] (-) TimerEvent: {}
+[22.883879] (-) TimerEvent: {}
+[22.985112] (-) TimerEvent: {}
+[23.046527] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[23.085298] (-) TimerEvent: {}
+[23.134831] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ciic_ros_tasks_messages/msg/detail/task_booking__type_support_c.cpp.o\x1b[0m\n'}
+[23.186330] (-) TimerEvent: {}
+[23.287660] (-) TimerEvent: {}
+[23.389848] (-) TimerEvent: {}
+[23.491256] (-) TimerEvent: {}
+[23.592281] (-) TimerEvent: {}
+[23.693640] (-) TimerEvent: {}
+[23.794826] (-) TimerEvent: {}
+[23.896485] (-) TimerEvent: {}
+[23.998047] (-) TimerEvent: {}
+[24.099035] (-) TimerEvent: {}
+[24.199853] (-) TimerEvent: {}
+[24.244871] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ciic_ros_tasks_messages/srv/detail/led_task__type_support_c.cpp.o\x1b[0m\n'}
+[24.300784] (-) TimerEvent: {}
+[24.401838] (-) TimerEvent: {}
+[24.502825] (-) TimerEvent: {}
+[24.603860] (-) TimerEvent: {}
+[24.705139] (-) TimerEvent: {}
+[24.806496] (-) TimerEvent: {}
+[24.908022] (-) TimerEvent: {}
+[25.009066] (-) TimerEvent: {}
+[25.110099] (-) TimerEvent: {}
+[25.211420] (-) TimerEvent: {}
+[25.313416] (-) TimerEvent: {}
+[25.415001] (-) TimerEvent: {}
+[25.515936] (-) TimerEvent: {}
+[25.617504] (-) TimerEvent: {}
+[25.709882] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[25.718458] (-) TimerEvent: {}
+[25.819521] (-) TimerEvent: {}
+[25.920547] (-) TimerEvent: {}
+[25.977490] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 64%] Built target ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c\n'}
+[26.010266] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[26.021706] (-) TimerEvent: {}
+[26.122801] (-) TimerEvent: {}
+[26.223984] (-) TimerEvent: {}
+[26.325717] (-) TimerEvent: {}
+[26.426758] (-) TimerEvent: {}
+[26.528089] (-) TimerEvent: {}
+[26.629834] (-) TimerEvent: {}
+[26.731558] (-) TimerEvent: {}
+[26.833265] (-) TimerEvent: {}
+[26.934523] (-) TimerEvent: {}
+[27.035428] (-) TimerEvent: {}
+[27.136516] (-) TimerEvent: {}
+[27.174902] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[27.237662] (-) TimerEvent: {}
+[27.261104] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ciic_ros_tasks_messages/msg/detail/task_booking__type_support.c.o\x1b[0m\n'}
+[27.338212] (-) TimerEvent: {}
+[27.376155] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ciic_ros_tasks_messages/srv/detail/led_task__type_support.c.o\x1b[0m\n'}
+[27.438893] (-) TimerEvent: {}
+[27.513868] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking C shared library libciic_ros_tasks_messages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[27.539448] (-) TimerEvent: {}
+[27.615169] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 74%] Built target ciic_ros_tasks_messages__rosidl_typesupport_introspection_c\n'}
+[27.640338] (-) TimerEvent: {}
+[27.643401] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages\x1b[0m\n'}
+[27.686435] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 74%] Built target ciic_ros_tasks_messages\n'}
+[27.715167] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__py\x1b[0m\n'}
+[27.741526] (-) TimerEvent: {}
+[27.747232] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[27.841917] (-) TimerEvent: {}
+[27.943481] (-) TimerEvent: {}
+[28.044605] (-) TimerEvent: {}
+[28.145668] (-) TimerEvent: {}
+[28.247321] (-) TimerEvent: {}
+[28.348483] (-) TimerEvent: {}
+[28.450020] (-) TimerEvent: {}
+[28.550792] (-) TimerEvent: {}
+[28.651738] (-) TimerEvent: {}
+[28.752971] (-) TimerEvent: {}
+[28.853809] (-) TimerEvent: {}
+[28.982138] (-) TimerEvent: {}
+[29.090704] (-) TimerEvent: {}
+[29.192184] (-) TimerEvent: {}
+[29.293795] (-) TimerEvent: {}
+[29.394766] (-) TimerEvent: {}
+[29.496591] (-) TimerEvent: {}
+[29.597559] (-) TimerEvent: {}
+[29.698812] (-) TimerEvent: {}
+[29.800087] (-) TimerEvent: {}
+[29.901668] (-) TimerEvent: {}
+[30.003012] (-) TimerEvent: {}
+[30.105044] (-) TimerEvent: {}
+[30.206446] (-) TimerEvent: {}
+[30.307404] (-) TimerEvent: {}
+[30.312753] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 76%] Built target ciic_ros_tasks_messages__py\n'}
+[30.344881] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__python\x1b[0m\n'}
+[30.407970] (-) TimerEvent: {}
+[30.509462] (-) TimerEvent: {}
+[30.546664] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__python.dir/rosidl_generator_py/ciic_ros_tasks_messages/msg/_task_booking_s.c.o\x1b[0m\n'}
+[30.610462] (-) TimerEvent: {}
+[30.711391] (-) TimerEvent: {}
+[30.812281] (-) TimerEvent: {}
+[30.913307] (-) TimerEvent: {}
+[30.927034] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__python.dir/rosidl_generator_py/ciic_ros_tasks_messages/srv/_led_task_s.c.o\x1b[0m\n'}
+[31.014440] (-) TimerEvent: {}
+[31.115437] (-) TimerEvent: {}
+[31.216339] (-) TimerEvent: {}
+[31.287708] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ciic_ros_tasks_messages/libciic_ros_tasks_messages__python.so\x1b[0m\n'}
+[31.317104] (-) TimerEvent: {}
+[31.418675] (-) TimerEvent: {}
+[31.468003] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 84%] Built target ciic_ros_tasks_messages__python\n'}
+[31.506133] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[31.519056] (-) TimerEvent: {}
+[31.569194] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ciic_ros_tasks_messages/_ciic_ros_tasks_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[31.620231] (-) TimerEvent: {}
+[31.721848] (-) TimerEvent: {}
+[31.823016] (-) TimerEvent: {}
+[31.896758] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[31.923801] (-) TimerEvent: {}
+[32.003063] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 89%] Built target ciic_ros_tasks_messages__rosidl_typesupport_c__pyext\n'}
+[32.024392] (-) TimerEvent: {}
+[32.034135] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[32.101824] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ciic_ros_tasks_messages/_ciic_ros_tasks_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[32.124924] (-) TimerEvent: {}
+[32.226520] (-) TimerEvent: {}
+[32.327441] (-) TimerEvent: {}
+[32.428737] (-) TimerEvent: {}
+[32.449349] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[32.529793] (-) TimerEvent: {}
+[32.566234] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 94%] Built target ciic_ros_tasks_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[32.604747] (ciic_ros_tasks_messages) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[32.635890] (-) TimerEvent: {}
+[32.669463] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ciic_ros_tasks_messages/_ciic_ros_tasks_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[32.736828] (-) TimerEvent: {}
+[32.838025] (-) TimerEvent: {}
+[32.939773] (-) TimerEvent: {}
+[32.986205] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[33.040943] (-) TimerEvent: {}
+[33.141931] (-) TimerEvent: {}
+[33.193437] (ciic_ros_tasks_messages) StdoutLine: {'line': b'[100%] Built target ciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[33.224578] (ciic_ros_tasks_messages) CommandEnded: {'returncode': 0}
+[33.243069] (-) TimerEvent: {}
+[33.344125] (-) TimerEvent: {}
+[33.393564] (ciic_ros_tasks_messages) JobProgress: {'identifier': 'ciic_ros_tasks_messages', 'progress': 'install'}
+[33.429539] (ciic_ros_tasks_messages) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ruben/ciic/build/ciic_ros_tasks_messages'], 'cwd': '/home/ruben/ciic/build/ciic_ros_tasks_messages', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ruben'), ('SSH_AGENT_PID', '2071'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ruben'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1894'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=05d6231c54a562a42f1e3f32629b548d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ruben'), ('JOURNAL_STREAM', '8:65223'), ('_', '/home/ruben/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ruben'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/ruben/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2106,unix/ubuntu:/tmp/.ICE-unix/2106'), ('INVOCATION_ID', '7f54f45a80954e208f5d6b51533f18d4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/195cc87d_3738_4190_af3a_cc19a12bbe99'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.283'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ruben/ciic/build/ciic_ros_tasks_messages'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=05d6231c54a562a42f1e3f32629b548d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[33.444626] (-) TimerEvent: {}
+[33.453608] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.454124] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ament_index/resource_index/rosidl_interfaces/ciic_ros_tasks_messages\n'}
+[33.454671] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages\n'}
+[33.456041] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv\n'}
+[33.456924] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/led_task.h\n'}
+[33.457362] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail\n'}
+[33.458296] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__functions.h\n'}
+[33.458928] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__functions.c\n'}
+[33.459352] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__struct.h\n'}
+[33.459856] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__type_support.h\n'}
+[33.460148] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg\n'}
+[33.460321] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail\n'}
+[33.460605] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__functions.c\n'}
+[33.461331] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__functions.h\n'}
+[33.462039] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__type_support.h\n'}
+[33.462306] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__struct.h\n'}
+[33.462758] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[33.462949] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/task_booking.h\n'}
+[33.464854] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/environment/library_path.sh\n'}
+[33.465090] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/environment/library_path.dsv\n'}
+[33.465966] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_generator_c.so\n'}
+[33.467661] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_generator_c.so" to ""\n'}
+[33.468698] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages\n'}
+[33.468908] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv\n'}
+[33.473359] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail\n'}
+[33.474414] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__rosidl_typesupport_fastrtps_c.h\n'}
+[33.475619] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg\n'}
+[33.475825] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[33.475996] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail\n'}
+[33.477866] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__rosidl_typesupport_fastrtps_c.h\n'}
+[33.478330] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[33.478524] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[33.482040] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages\n'}
+[33.482249] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv\n'}
+[33.482428] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail\n'}
+[33.482656] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.482844] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/dds_fastrtps\n'}
+[33.482998] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg\n'}
+[33.483148] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[33.483295] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail\n'}
+[33.483438] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/dds_fastrtps\n'}
+[33.485255] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[33.485689] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[33.486023] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[33.486309] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages\n'}
+[33.489825] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv\n'}
+[33.490227] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail\n'}
+[33.490515] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__type_support.c\n'}
+[33.490775] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__rosidl_typesupport_introspection_c.h\n'}
+[33.491158] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg\n'}
+[33.491481] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[33.491734] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail\n'}
+[33.491977] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__type_support.c\n'}
+[33.492327] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__rosidl_typesupport_introspection_c.h\n'}
+[33.492553] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_introspection_c.so\n'}
+[33.492780] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[33.493046] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_c.so\n'}
+[33.493413] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_c.so" to ""\n'}
+[33.493696] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages\n'}
+[33.493969] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv\n'}
+[33.498439] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail\n'}
+[33.498757] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__builder.hpp\n'}
+[33.499052] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__struct.hpp\n'}
+[33.499421] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__traits.hpp\n'}
+[33.499697] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/led_task.hpp\n'}
+[33.499983] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg\n'}
+[33.500353] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail\n'}
+[33.500708] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__struct.hpp\n'}
+[33.501003] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__builder.hpp\n'}
+[33.501272] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__traits.hpp\n'}
+[33.501553] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/task_booking.hpp\n'}
+[33.505985] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages\n'}
+[33.506231] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv\n'}
+[33.506427] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail\n'}
+[33.506582] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.506873] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/srv/detail/led_task__type_support.cpp\n'}
+[33.507025] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg\n'}
+[33.507158] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Up-to-date: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail\n'}
+[33.507288] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__rosidl_typesupport_introspection_cpp.hpp\n'}
+[33.507417] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/include/ciic_ros_tasks_messages/msg/detail/task_booking__type_support.cpp\n'}
+[33.507541] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[33.507826] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[33.508028] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_cpp.so\n'}
+[33.508177] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__rosidl_typesupport_cpp.so" to ""\n'}
+[33.508311] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/environment/pythonpath.sh\n'}
+[33.508443] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/environment/pythonpath.dsv\n'}
+[33.508573] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/__init__.py\n'}
+[33.545747] (-) TimerEvent: {}
+[33.570587] (ciic_ros_tasks_messages) StdoutLine: {'line': b"Compiling '/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/__init__.py'...\n"}
+[33.581725] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/msg\n'}
+[33.582518] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/msg/_task_booking_s.c\n'}
+[33.583069] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/msg/__init__.py\n'}
+[33.583641] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/msg/_task_booking.py\n'}
+[33.584119] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/srv\n'}
+[33.588109] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/srv/_led_task_s.c\n'}
+[33.588757] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/srv/__init__.py\n'}
+[33.590694] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/srv/_led_task.py\n'}
+[33.590973] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[33.591294] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[33.591652] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[33.591893] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[33.592338] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[33.593881] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/python3.8/site-packages/ciic_ros_tasks_messages/ciic_ros_tasks_messages_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[33.594381] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__python.so\n'}
+[33.595398] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Set runtime path of "/home/ruben/ciic/install/ciic_ros_tasks_messages/lib/libciic_ros_tasks_messages__python.so" to ""\n'}
+[33.595887] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/msg/TaskBooking.idl\n'}
+[33.596454] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/srv/LedTask.idl\n'}
+[33.597006] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/msg/TaskBooking.msg\n'}
+[33.597662] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/srv/LedTask.srv\n'}
+[33.598256] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/srv/LedTask_Request.msg\n'}
+[33.599464] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/srv/LedTask_Response.msg\n'}
+[33.599774] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ament_index/resource_index/package_run_dependencies/ciic_ros_tasks_messages\n'}
+[33.602181] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ament_index/resource_index/parent_prefix_path/ciic_ros_tasks_messages\n'}
+[33.602540] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/environment/ament_prefix_path.sh\n'}
+[33.602974] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/environment/ament_prefix_path.dsv\n'}
+[33.603772] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/environment/path.sh\n'}
+[33.606173] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/environment/path.dsv\n'}
+[33.606525] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/local_setup.bash\n'}
+[33.606976] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/local_setup.sh\n'}
+[33.607212] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/local_setup.zsh\n'}
+[33.607709] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/local_setup.dsv\n'}
+[33.610017] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/package.dsv\n'}
+[33.610334] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ament_index/resource_index/packages/ciic_ros_tasks_messages\n'}
+[33.610599] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_generator_cExport.cmake\n'}
+[33.610737] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[33.611052] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[33.611188] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[33.611333] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_typesupport_cExport.cmake\n'}
+[33.611602] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[33.611778] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_generator_cppExport.cmake\n'}
+[33.612031] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[33.612158] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[33.612822] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_typesupport_cppExport.cmake\n'}
+[33.613176] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[33.616282] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[33.616458] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.616683] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[33.616960] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.617224] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[33.617480] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[33.617671] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[33.617826] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messagesConfig.cmake\n'}
+[33.618121] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/cmake/ciic_ros_tasks_messagesConfig-version.cmake\n'}
+[33.618260] (ciic_ros_tasks_messages) StdoutLine: {'line': b'-- Installing: /home/ruben/ciic/install/ciic_ros_tasks_messages/share/ciic_ros_tasks_messages/package.xml\n'}
+[33.621780] (ciic_ros_tasks_messages) CommandEnded: {'returncode': 0}
+[33.646013] (-) TimerEvent: {}
+[33.748009] (-) TimerEvent: {}
+[33.850124] (-) TimerEvent: {}
+[33.957194] (-) TimerEvent: {}
+[34.065342] (-) TimerEvent: {}
+[34.075054] (ciic_ros_tasks_messages) JobEnded: {'identifier': 'ciic_ros_tasks_messages', 'rc': 0}
+[34.076672] (-) EventReactorShutdown: {}

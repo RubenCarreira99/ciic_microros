@@ -1,0 +1,5 @@
+string task_namespace
+string action
+string performer_identifier
+int64 sender_id
+int64 recipient_id

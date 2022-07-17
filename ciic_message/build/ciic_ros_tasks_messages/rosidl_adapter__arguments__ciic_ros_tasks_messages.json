@@ -1,0 +1,7 @@
+{
+  "package_name": "ciic_ros_tasks_messages",
+  "non_idl_tuples": [
+    "/home/ruben/ciic/src/ciic_ros_tasks_messages:msg/TaskBooking.msg",
+    "/home/ruben/ciic/src/ciic_ros_tasks_messages:srv/LedTask.srv"
+  ]
+}

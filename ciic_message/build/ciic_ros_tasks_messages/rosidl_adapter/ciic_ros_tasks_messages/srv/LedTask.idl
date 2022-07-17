@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ciic_ros_tasks_messages/srv/LedTask.srv
+// generated code does not contain a copyright notice
+
+
+module ciic_ros_tasks_messages {
+  module srv {
+    struct LedTask_Request {
+      string task_type;
+
+      int64 value;
+    };
+    struct LedTask_Response {
+      string result;
+    };
+  };
+};

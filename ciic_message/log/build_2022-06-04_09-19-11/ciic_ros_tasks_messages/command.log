@@ -1,0 +1,6 @@
+Invoking command in '/home/ruben/ciic/build/ciic_ros_tasks_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ruben/ciic/src/ciic_ros_tasks_messages -DCMAKE_INSTALL_PREFIX=/home/ruben/ciic/install/ciic_ros_tasks_messages
+Invoked command in '/home/ruben/ciic/build/ciic_ros_tasks_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ruben/ciic/src/ciic_ros_tasks_messages -DCMAKE_INSTALL_PREFIX=/home/ruben/ciic/install/ciic_ros_tasks_messages
+Invoking command in '/home/ruben/ciic/build/ciic_ros_tasks_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ruben/ciic/build/ciic_ros_tasks_messages -- -j2 -l2
+Invoked command in '/home/ruben/ciic/build/ciic_ros_tasks_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ruben/ciic/build/ciic_ros_tasks_messages -- -j2 -l2
+Invoking command in '/home/ruben/ciic/build/ciic_ros_tasks_messages': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ruben/ciic/build/ciic_ros_tasks_messages
+Invoked command in '/home/ruben/ciic/build/ciic_ros_tasks_messages' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ruben/ciic/build/ciic_ros_tasks_messages
