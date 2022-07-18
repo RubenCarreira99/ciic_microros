@@ -17,6 +17,8 @@ se o utilizador preferir utiliza-lo, basta alterar os caminhos que estao nos com
     - Ter VS CODE instalado com a extensao PlatformIO
 
     - Quando ligar o esp32dev ao PC, dar permissoes na porta onde o esp estiver ligado - "chmod 777 nome_da_porta"
+    
+    - inserir os dados da sua rede na linha de código da função set_microros_wifi_transports()
 
     - Neste repositorio encontra-se o diretorio "ciic_message' que contem a mensagem customizada para o projeto. Para funcionar sera necessario instalar o package
       da mensagem - pode guiar-se pelo relatorio ou seguir o tutorial em https://github-wiki-see.page/m/kajMork/Brick_Feeder/wiki/How-to-create-custom-micro-ros-message-service-for-use-in-arduino-framework (ignorar parte do site onde explica como criar a mensagem, so necessita da parte
