@@ -201,13 +201,8 @@ void subscription_callback(const void * msgin)
 void createEntities(){
 
     const int agent_port = 8888; //port
- 
-    //set_microros_wifi_transports("MEO-CFEC70", "09f8a4e7d1", "192.168.1.189", agent_port);
-    //set_microros_wifi_transports("APBCR", "brunocr27", "192.168.95.36", agent_port);
 
-    set_microros_wifi_transports("MEO-8E26B0", "GLORYHOLE69", "192.168.1.189", agent_port);
-    //set_microros_wifi_transports("MEO-8E26B1-5G", "GLORYHOLE69", "192.168.1.185", agent_port);
-    //set_microros_transports();
+    set_microros_wifi_transports("network_ssid", "network_password", "agent_ip_or_VM_ip", agent_port);
 
     delay(200);
 
